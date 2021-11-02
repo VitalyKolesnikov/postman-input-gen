@@ -11,10 +11,10 @@ import java.util.stream.Stream;
 
 public class JoinLines {
 
-    static final int AMOUNT = 100;
-    static final String INPUT = "C:/Users/vkolesnikov/temp/input.csv";
-    static final String OUTPUT = "C:/Users/vkolesnikov/temp/output.csv";
-    static final String PARAM = "courseUnitRealizationIds";
+    static final int AMOUNT = 100; // кол-во ID в одной строке результирующего файла
+    static final String INPUT = "src/main/resources/input.csv"; // исходный файл со списком ID в столбик
+    static final String OUTPUT = "src/main/resources/output.csv"; // результирующий файл (генерируется программой)
+    static final String PARAM = "courseUnitRealizationIds"; // имя параметра (добавляется первой строкой в результирующий файл)
 
     public static void main(String[] args) throws IOException {
 
